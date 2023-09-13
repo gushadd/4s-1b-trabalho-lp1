@@ -1,5 +1,3 @@
-using System.Numerics;
-
 public class Bloco {
     private int codigoDoBloco;
     private double medidaMetroCubico;
