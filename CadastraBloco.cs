@@ -1,14 +1,32 @@
-﻿namespace _4s_1b_trabalho_lp1;
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace _4s_1b_trabalho_lp1;
 
 public class CadastraBloco
 {
+    //Retorna um objeto Bloco com os atributos escritos pelo usuário.
+    //Utiliza funções da classe Uteis para impedir entrada incorreta
+    //de dados.
     public static Bloco CadastrarBloco()
     {
-        string codigoDoBloco = Uteis.ObterString("Digite o codigo do bloco: ");
+        string codigoDoBloco;
+        do
+        {
+            codigoDoBloco = Uteis.ObterString("Digite o codigo do bloco: ");
+        } 
+        while (CodigoJaExiste(Menu.blocos, codigoDoBloco));        
+            
         int numero = Uteis.ObterInt("Digite o numero do bloco: ");
         double medidaMetroCubico = Uteis.ObterDouble("Digite a medida do bloco (m^3): ");
         string descricao = Uteis.ObterString("Digite a descrição do bloco: ");
-        string tipoDoMaterial = Uteis.ObterString("Digite o material do bloco: ");
+
+        string tipoDoMaterial;
+        do
+        {
+            tipoDoMaterial = Uteis.ObterString("Digite o material do bloco: ");
+        } 
+        while (MaterialInvalido(tipoDoMaterial));
+
         double valorDeCompra = Uteis.ObterDouble("Digite o valor de compra: ");
         double valorDeVenda = Uteis.ObterDouble("Digite o valor de venda: ");
         string pedreira = Uteis.ObterString("Digite a pedreira de origem do bloco: ");
@@ -16,5 +34,41 @@ public class CadastraBloco
         Bloco bloco = new Bloco(codigoDoBloco, numero, medidaMetroCubico, descricao, tipoDoMaterial, valorDeCompra, valorDeVenda, pedreira);
 
         return bloco;
+    }
+
+    //retorna true caso o código informado no cadastro já exista, e false caso contrário
+    private static bool CodigoJaExiste(List<Bloco> blocos, string codigo)
+    {
+        foreach (Bloco bloco in blocos)
+        {
+            if (bloco.GetCodigoDoBloco() == codigo)
+            {
+                Console.WriteLine("O código informado já existe!");
+                Thread.Sleep(1500);
+                Console.Clear();
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //retorna true caso o material informado não seja mármore ou granito, e false caso contrário
+    private static bool MaterialInvalido (string material)
+    {
+        if (material.Equals("Mármore", StringComparison.OrdinalIgnoreCase) || material.Equals("Granito", StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+        else if (material.Equals("Marmore", StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+        else
+        {
+            Console.WriteLine("Material inválido. Apenas 'Mármore' ou 'Granito' são permitidos.");
+            Thread.Sleep(2000);
+            Console.Clear();
+            return true;
+        }
     }
 }

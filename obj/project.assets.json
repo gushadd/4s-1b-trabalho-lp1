@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TI\\.nuget\\packages\\": {}
+    "C:\\Users\\gusta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
+      "projectUniqueName": "C:\\Git Clones\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
       "projectName": "4s-1b-trabalho-lp1",
-      "projectPath": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
-      "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\obj\\",
+      "projectPath": "C:\\Git Clones\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "C:\\Git Clones\\4s-1b-trabalho-lp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
