@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/gustavo-haddad/.nuget/packages/": {}
+    "C:\\Users\\TI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
+      "projectUniqueName": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
       "projectName": "4s-1b-trabalho-lp1",
-      "projectPath": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
-      "packagesPath": "/home/gustavo-haddad/.nuget/packages/",
-      "outputPath": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/",
+      "projectPath": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\4s-1b-trabalho-lp1.csproj",
+      "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\TI\\Documents\\Estudos\\Faculdade\\Trabalhos\\4s-1b-trabalho-lp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gustavo-haddad/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
