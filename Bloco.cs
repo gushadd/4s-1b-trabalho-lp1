@@ -1,27 +1,35 @@
-public class Bloco
-{
-    private int codigoDoBloco;
+using System.Numerics;
+
+public class Bloco {
+    private string codigoDoBloco;   //de int para string
+    private int numero;             //adicionado  
     private double medidaMetroCubico;
     private string descricao;
     private string tipoDoMaterial;
-    private double valoreDeCompra;
+    private double valorDeCompra;
     private double valorDeVenda;
     private string pedreira;
 
-    public Bloco(int codigoDoBloco, double medidaMetroCubico, string descricao, string tipoDoMaterial, double valoreDeCompra, double valorDeVenda, string pedreira)
+    public Bloco(string codigoDoBloco, int numero, double medidaMetroCubico, string descricao, string tipoDoMaterial, double valoreDeCompra, double valorDeVenda, string pedreira)
     {
         this.codigoDoBloco = codigoDoBloco;
+        this.numero = numero;
         this.medidaMetroCubico = medidaMetroCubico;
         this.descricao = descricao;
         this.tipoDoMaterial = tipoDoMaterial;
-        this.valoreDeCompra = valoreDeCompra;
+        this.valorDeCompra = valoreDeCompra;
         this.valorDeVenda = valorDeVenda;
         this.pedreira = pedreira;
     }
 
-    public int getCodigoDoBloco()
+    public string getCodigoDoBloco()
     {
         return this.codigoDoBloco;
+    }
+
+    public int getNumero()
+    {   //adicionado 
+        return this.numero;
     }
 
     public double getMedidaMetroCubico()
@@ -41,7 +49,7 @@ public class Bloco
 
     public double getValoreDeCompra()
     {
-        return this.valoreDeCompra;
+        return this.valorDeCompra;
     }
 
     public double getValorDeVenda()
@@ -54,9 +62,14 @@ public class Bloco
         return this.pedreira;
     }
 
-    public void setCodigoDoBloco(int codigoDoBloco)
+    public void setCodigoDoBloco(string codigoDoBloco)
     {
         this.codigoDoBloco = codigoDoBloco;
+    }
+
+    public void setNumero(int numero)
+    { //adicionado 
+        this.numero = numero;
     }
 
     public void setMedidaMetroCubico(double medidaMetroCubico)
@@ -76,7 +89,7 @@ public class Bloco
 
     public void setValoreDeCompra(double valoreDeCompra)
     {
-        this.valoreDeCompra = valoreDeCompra;
+        this.valorDeCompra = valoreDeCompra;
     }
 
     public void setValorDeVenda(double valorDeVenda)

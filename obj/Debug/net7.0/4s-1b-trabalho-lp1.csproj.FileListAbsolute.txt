@@ -1,0 +1,15 @@
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/bin/Debug/net7.0/4s-1b-trabalho-lp1
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/bin/Debug/net7.0/4s-1b-trabalho-lp1.deps.json
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/bin/Debug/net7.0/4s-1b-trabalho-lp1.runtimeconfig.json
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/bin/Debug/net7.0/4s-1b-trabalho-lp1.dll
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/bin/Debug/net7.0/4s-1b-trabalho-lp1.pdb
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.csproj.AssemblyReference.cache
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.GeneratedMSBuildEditorConfig.editorconfig
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.AssemblyInfoInputs.cache
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.AssemblyInfo.cs
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.csproj.CoreCompileInputs.cache
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.dll
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/refint/4s-1b-trabalho-lp1.dll
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.pdb
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/4s-1b-trabalho-lp1.genruntimeconfig.cache
+/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/Debug/net7.0/ref/4s-1b-trabalho-lp1.dll
