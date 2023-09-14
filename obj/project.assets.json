@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/guilherme/.nuget/packages/": {}
+    "/home/gustavo-haddad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guilherme/Documentos/GitHub/Faculdade/Trabalhos/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
+      "projectUniqueName": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
       "projectName": "4s-1b-trabalho-lp1",
-      "projectPath": "/home/guilherme/Documentos/GitHub/Faculdade/Trabalhos/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
-      "packagesPath": "/home/guilherme/.nuget/packages/",
-      "outputPath": "/home/guilherme/Documentos/GitHub/Faculdade/Trabalhos/4s-1b-trabalho-lp1/obj/",
+      "projectPath": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/4s-1b-trabalho-lp1.csproj",
+      "packagesPath": "/home/gustavo-haddad/.nuget/packages/",
+      "outputPath": "/home/gustavo-haddad/Downloads/4s-1b-trabalho-lp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/guilherme/.nuget/NuGet/NuGet.Config"
+        "/home/gustavo-haddad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
