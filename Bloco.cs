@@ -1,8 +1,8 @@
 using System.Numerics;
 
 public class Bloco {
-    private string codigoDoBloco;   //de int para string
-    private int numero;             //adicionado  
+    private string codigoDoBloco;   
+    private int numero;            
     private double medidaMetroCubico;
     private string descricao;
     private string tipoDoMaterial;
@@ -22,82 +22,82 @@ public class Bloco {
         this.pedreira = pedreira;
     }
 
-    public string getCodigoDoBloco()
+    public string GetCodigoDoBloco()
     {
         return this.codigoDoBloco;
     }
 
-    public int getNumero()
-    {   //adicionado 
+    public int GetNumero()
+    {    
         return this.numero;
     }
 
-    public double getMedidaMetroCubico()
+    public double GetMedidaMetroCubico()
     {
         return this.medidaMetroCubico;
     }
 
-    public string getDescricao()
+    public string GetDescricao()
     {
         return this.descricao;
     }
 
-    public string getTipoDoMaterial()
+    public string GetTipoDoMaterial()
     {
         return this.tipoDoMaterial;
     }
 
-    public double getValoreDeCompra()
+    public double GetValorDeCompra()
     {
         return this.valorDeCompra;
     }
 
-    public double getValorDeVenda()
+    public double GetValorDeVenda()
     {
         return this.valorDeVenda;
     }
 
-    public string getPedreira()
+    public string GetPedreira()
     {
         return this.pedreira;
     }
 
-    public void setCodigoDoBloco(string codigoDoBloco)
+    public void SetCodigoDoBloco(string codigoDoBloco)
     {
         this.codigoDoBloco = codigoDoBloco;
     }
 
-    public void setNumero(int numero)
-    { //adicionado 
+    public void SetNumero(int numero)
+    { 
         this.numero = numero;
     }
 
-    public void setMedidaMetroCubico(double medidaMetroCubico)
+    public void SetMedidaMetroCubico(double medidaMetroCubico)
     {
         this.medidaMetroCubico = medidaMetroCubico;
     }
 
-    public void setDescricao(string descricao)
+    public void SetDescricao(string descricao)
     {
         this.descricao = descricao;
     }
 
-    public void setTipoDoMaterial(string tipoDoMaterial)
+    public void SetTipoDoMaterial(string tipoDoMaterial)
     {
         this.tipoDoMaterial = tipoDoMaterial;
     }
 
-    public void setValoreDeCompra(double valoreDeCompra)
+    public void SetValoreDeCompra(double valoreDeCompra)
     {
         this.valorDeCompra = valoreDeCompra;
     }
 
-    public void setValorDeVenda(double valorDeVenda)
+    public void SetValorDeVenda(double valorDeVenda)
     {
         this.valorDeVenda = valorDeVenda;
     }
 
-    public void setPedreira(string pedreira)
+    public void SetPedreira(string pedreira)
     {
         this.pedreira = pedreira;
     }

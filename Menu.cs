@@ -1,28 +1,29 @@
 ﻿using _4s_1b_trabalho_lp1;
 
 public class Menu{
-    static List<Bloco> blocos = new();
+    public static List<Bloco> blocos = new();
     public static void Main(String[] args)
     {
-        int opcao;
         bool rodarPrograma = true;
-
-        Console.WriteLine("Bem vindo ao Gerenciador de Blocos.\n");
 
         do
         {
+            int opcao;
+
             while (true)
             {
+                Console.Clear();
+                Console.WriteLine("Bem vindo ao Gerenciador de Blocos.\n");
                 Console.WriteLine("1 - Cadastrar bloco");
                 Console.WriteLine("2 - Listar blocos");
                 Console.WriteLine("3 - Buscar bloco por código");
                 Console.WriteLine("4 - Listar blocos por pedreira");
                 Console.WriteLine("5 - Sair");
-                Console.Write("\nSelecione uma opção: ");
-                string resposta = Console.ReadLine()!;
+                opcao = Uteis.ObterInt("\nSelecione uma opção: ");
 
-                if (int.TryParse(resposta, out opcao) && opcao > 0 && opcao < 6)    //caso a opção seja válida, sai do loop
+                if (opcao > 0 && opcao < 6)    //caso a opção seja válida, sai do loop
                 {
+                    Console.Clear();
                     break;
                 }
 
@@ -43,13 +44,15 @@ public class Menu{
                     ListaBlocos.ListarBlocos(blocos);
                     break;
                 case 3:
+                    BuscaBloco.BuscarBlocoPorCodigo(blocos);
                     break;
                 case 4:
+                    ListaBlocosPorPedreira.ListarBlocosPorPedreira(blocos);
                     break;
                 case 5:
                     rodarPrograma = false;
                     break;
             }
-        }while (rodarPrograma);
+        } while (rodarPrograma);
     }
 }
