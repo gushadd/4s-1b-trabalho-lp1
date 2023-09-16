@@ -6,6 +6,9 @@
 
 # Sobre
 Esse é um sistema de cadastro de cadastro de blocos, idealizado em cima de empresas do ramo de mármore e granito. Construido pela interface de console, o mesmo busca apenas mostrar as funcionalidades mais básicas, sem se preocupar com estética ou interfaces GUI. O mesmo contempla 4 funções:
+<p align="center">
+  <img src="https://github.com/gPagio/4s-1b-trabalho-lp1/blob/main/docs/banner.png?raw=true" alt="Cadastrando">
+</p>
 
   - [1 - Cadastrar Bloco](#cadastrarBlocos)
   - [2 - Listar Blocos](#listarBLocos)
