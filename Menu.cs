@@ -19,7 +19,7 @@ public class Menu{
                 Console.WriteLine("3 - Buscar bloco por código");
                 Console.WriteLine("4 - Listar blocos por pedreira");
                 Console.WriteLine("5 - Sair");
-                opcao = Uteis.ObterInt("\nSelecione uma opção: ");
+                opcao = Util.ObterInt("\nSelecione uma opção: ");
 
                 if (opcao > 0 && opcao < 6)    //caso a opção seja válida, sai do loop
                 {
@@ -29,7 +29,6 @@ public class Menu{
 
                 Console.Write("Opção inválida!");
                 Thread.Sleep(1500);
-                Console.Clear();
             }
 
             switch (opcao)

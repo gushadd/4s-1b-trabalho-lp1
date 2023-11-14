@@ -12,26 +12,28 @@ public class CadastraBloco
         string codigoDoBloco;
         do
         {
-            codigoDoBloco = Uteis.ObterString("Digite o codigo do bloco: ");
+            codigoDoBloco = Util.ObterString("Digite o codigo do bloco: ");
         } 
         while (CodigoJaExiste(Menu.blocos, codigoDoBloco));        
             
-        int numero = Uteis.ObterInt("Digite o numero do bloco: ");
-        double medidaMetroCubico = Uteis.ObterDouble("Digite a medida do bloco (m^3): ");
-        string descricao = Uteis.ObterString("Digite a descrição do bloco: ");
+        int numero = Util.ObterInt("Digite o numero do bloco: ");
+        double medidaMetroCubico = Util.ObterDouble("Digite a medida do bloco (m^3): ");
+        string descricao = Util.ObterString("Digite a descrição do bloco: ");
 
         string tipoDoMaterial;
         do
         {
-            tipoDoMaterial = Uteis.ObterString("Digite o material do bloco: ");
+            tipoDoMaterial = Util.ObterString("Digite o material do bloco: ");
         } 
         while (MaterialInvalido(tipoDoMaterial));
 
-        double valorDeCompra = Uteis.ObterDouble("Digite o valor de compra: ");
-        double valorDeVenda = Uteis.ObterDouble("Digite o valor de venda: ");
-        string pedreira = Uteis.ObterString("Digite a pedreira de origem do bloco: ");
+        double valorDeCompra = Util.ObterDouble("Digite o valor de compra: ");
+        double valorDeVenda = Util.ObterDouble("Digite o valor de venda: ");
+        string pedreira = Util.ObterString("Digite a pedreira de origem do bloco: ");
 
         Bloco bloco = new Bloco(codigoDoBloco, numero, medidaMetroCubico, descricao, tipoDoMaterial, valorDeCompra, valorDeVenda, pedreira);
+
+        SalvaBlocoEmArquivoTxt.SalvarBlocoEmArquivoTxt(bloco);
 
         return bloco;
     }

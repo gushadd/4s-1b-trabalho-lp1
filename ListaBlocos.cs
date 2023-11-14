@@ -6,14 +6,14 @@ public class ListaBlocos
     //Caso não haja nada, mostra uma mensagem de aviso.
     public static void ListarBlocos(List<Bloco> blocos)
     {
-        if (Uteis.NaoHaBlocos(blocos))
+        if (Util.NaoHaBlocos(blocos))
         {
             return;
         }
 
         foreach (Bloco bloco in blocos) 
         {
-            Uteis.ImprimeDadosDoBloco(bloco);
+           Console.WriteLine(Util.DadosDoBloco(bloco));
         }
 
         Console.Write("Fim da lista de blocos. Pressione qualquer tecla...");

@@ -6,12 +6,12 @@ public class BuscaBloco
     //ou o código informado não exista na lista
     public static void BuscarBlocoPorCodigo(List<Bloco> blocos)
     {
-        if (Uteis.NaoHaBlocos(blocos))
+        if (Util.NaoHaBlocos(blocos))
         {
             return;
         }
 
-        string codigo = Uteis.ObterString("Digite o código do bloco a ser buscado: ");
+        string codigo = Util.ObterString("Digite o código do bloco a ser buscado: ");
         Console.Clear();
 
         bool codigoExiste = false;
@@ -20,7 +20,7 @@ public class BuscaBloco
         {
             if (codigo == bloco.GetCodigoDoBloco())
             {
-                Uteis.ImprimeDadosDoBloco(bloco);
+                Console.WriteLine(Util.DadosDoBloco(bloco));
                 Console.Write("Pressione qualquer tecla...");
                 Console.ReadKey();
                 codigoExiste = true;

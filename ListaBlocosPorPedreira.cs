@@ -6,12 +6,12 @@ public class ListaBlocosPorPedreira
     //ou a pedreira informada não exista na lista
     public static void ListarBlocosPorPedreira(List<Bloco> blocos)
     {
-        if (Uteis.NaoHaBlocos(blocos))
+        if (Util.NaoHaBlocos(blocos))
         {
             return;
         }
 
-        string pedreira = Uteis.ObterString("Digite a pedreira de origem para listar os blocos: ");
+        string pedreira = Util.ObterString("Digite a pedreira de origem para listar os blocos: ");
         Console.Clear();
 
         bool pedreiraExiste = false;
@@ -20,7 +20,7 @@ public class ListaBlocosPorPedreira
         {
             if (pedreira == bloco.GetPedreira())
             {
-                Uteis.ImprimeDadosDoBloco(bloco);
+                Console.WriteLine (Util.DadosDoBloco(bloco));
                 pedreiraExiste = true;
             }
         }
